@@ -61,3 +61,8 @@ The Members database consisted of the following:
 | marital_status   | TEXT                |
 ### SQlite Database Format
 ![ds](images/ds_example.jpg)
+### Acquiring Video & Splitting Videos into Still Images 
+I had all 12 of my volunteers send me an approx 30 second video of their face.
+I suggested that in the video take a wide variety of their face so the yolo and LBPHFaceRecognizer can lern asepects of their face
+For instance the video showed their face looking at the camera 
+[![Video Thumbnail](images/john_ex.jpg)](images/john.mp4)
