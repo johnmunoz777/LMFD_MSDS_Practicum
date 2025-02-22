@@ -70,4 +70,35 @@ For example, the video should include their face looking directly at the camera,
 I wrote Python code to extract approximately 100 images from each volunteer's video. Each volunteer's images were stored in a separate folder, with each folder containing unique, randomly selected frames.
 ![ts](images/test.jpg)
 ![ss](images/splitting_photos.jpg)
+### Building YOLO Model 
+To prepare the images for the YOLO v8 object detection model, I used OpenCV to detect faces within the images. Specifically, I employed the Haar Cascade classifier, an algorithm widely used for object detection, especially for faces. Once a face was detected, I generated a `.txt` file containing the volunteer's ID, the `x_center`, `y_center`, `width`, and `height` of the detected face.
+
+I created a Python function that:
+
+- Splits the images into training, validation, and test sets according to specified split ratios.
+- Generates YOLO-formatted `.txt` annotation files for each image by detecting faces.
+- Copies both the images and annotation files into their corresponding output folders.
+- Finaly, data.yaml file linked the path,train,validation, number_of_classes
+
+The folder structure for the output is as follows:
+main_folder/
+    ├── train/
+    │   ├── images/
+    │   └── labels/
+    ├── valid/
+    │   ├── images/
+    │   └── labels/
+    └── test/
+        ├── images/
+        └── labels/
+
+        # Dataset Paths and Configuration
+
+```yaml
+path: /content/drive/MyDrive/capstone project/my_data_split
+train: /content/drive/MyDrive/capstone project/my_data_split/train/images
+val: /content/drive/MyDrive/capstone project/my_data_split/val/images
+test: /content/drive/MyDrive/capstone project/my_data_split/test/images
+nc: 12
+names: ['angela', 'classmate', 'giuliana', 'javier', 'john', 'maite', 'mike', 'ron', 'shanti', 'tom', 'vilma', 'will']
 
