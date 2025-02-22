@@ -135,6 +135,19 @@ I used the Ultralytics package to build the Yolo v8 model <br>
 
 - **Mike, Tom, Will**:  
   These classes have mid-range scores, suggesting inconsistency in detection.
+### Confusion Matrix & ROC Curve
+##### Confusion Matrix Results
+- **Strong diagonal values** indicate good classification accuracy.
+- **Misclassifications**:
+  - **Classmate (0.64)** shows some misclassified instances.
+  - **Background** overlaps with other classes, confusing faces with non-faces.
+### ROC Curve & Recall-Confidence Analysis
+
+- **Recall at 0.0 confidence**: 82%, detecting 82% of positive instances.
+- **As confidence increases**, recall sharply drops around 0.8–1.0.
+- **Some classes perform better** than others:
+  - **Classmate and Will** show a steep decline, indicating they are more affected by confidence filtering.
+  - Other classes maintain high recall across confidence thresholds.
 
   ![c](images/confusion_matrix.jpg)
   ![r](images/roc_curve.jpg)
