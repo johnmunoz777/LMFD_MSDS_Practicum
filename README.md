@@ -66,3 +66,8 @@ I asked all 12 of my volunteers to send me an approximately 30-second video of t
 I suggested that they capture a variety of angles to help the YOLO and LBPHFaceRecognizer models learn different aspects of their facial features.<br>
 For example, the video should include their face looking directly at the camera, as well as other angles.
 [![Video Thumbnail](images/john_ex.jpg)](images/johns.mp4)
+#### Extracting Frames from Video
+I wrote Python code to extract approximately 100 images from each volunteer's video. Each volunteer's images were stored in a separate folder, with each folder containing unique, randomly selected frames.
+![ts](images/test.jpg)
+![ss](images/splitting.jpg)
+
