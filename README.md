@@ -19,9 +19,9 @@ By implementing this solution, venues such as ski resorts, retail stores, and st
 - [Building LBPHFaceRecognizer](#building-lbphfacerecognizer)  
 - [Future Implementations](#future-implementations)  
 ### Setting up the SQLite Database
-Before Creating the sqlite database I had to acquire volunteers for my LMFD project
-After asking friends and family to volunteer I endup with 12 volunteers and their following ids.
-### Member List  
+Before creating the SQLite database, I needed to gather volunteers for my LMFD project.<br>
+After reaching out to friends and family, I enlisted 12 volunteers, each assigned a unique ID.
+##### Member List  
 
 | Name      | ID Number |
 |-----------|----------|
