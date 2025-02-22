@@ -59,4 +59,5 @@ The Members database consisted of the following:
 | occupation       | TEXT                |
 | interest         | TEXT                |
 | marital_status   | TEXT                |
-
+### SQlite Database Format
+![ds](images/ds_example.jpg)
