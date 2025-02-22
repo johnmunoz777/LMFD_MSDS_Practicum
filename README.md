@@ -106,13 +106,15 @@ names: ['angela', 'classmate', 'giuliana', 'javier', 'john', 'maite', 'mike', 'r
 ```
 ![g](images/g_doc.jpg)
 ### Building the YOLO Model
-I used the Ultralytics package to build the Yolo v8 model
-!yolo task=detect mode=train model=yolov8l.pt data="/content/drive/MyDrive/capstone project/data.yaml" epochs=50 imgsz=640
+I used the Ultralytics package to build the Yolo v8 model <br>
+`!yolo task=detect mode=train model=yolov8l.pt data="/content/drive/MyDrive/capstone project/data.yaml" epochs=50 imgsz=640`
+![rs](images/yolo_results.jpg)
 - Overall Model Performance
 * mAP@50: 74.5% → On average, the Yolo v8 model detects objects correctly 74.5% of the time at an IoU threshold of 0.50.
 * mAP@50-95: 66.7% → A more stringent metric, showing performance across multiple IoU thresholds.
 * Precision (P): 0.74 → Out of all detected objects, 74% were correctly classified.
 * Recall (R): 0.738 → The model correctly detected 73.8% of the total ground truth instances.
+![ro](images/por.jpg)
 ## Strongly Performing Classes
 
 - **Javier, John, Ron**:  
@@ -133,3 +135,9 @@ I used the Ultralytics package to build the Yolo v8 model
 
 - **Mike, Tom, Will**:  
   These classes have mid-range scores, suggesting inconsistency in detection.
+
+  ![c](images/confusion_matrix.jpg)
+  ![r](images/roc_curve.jpg)
+  ![ro](images/train_batch.jpg)
+  ![ro](images/val_batch.jpg)
+    ![ro](images/val_two.jpg)
