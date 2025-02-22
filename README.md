@@ -4,5 +4,9 @@ This project was inspired by my experience waiting in long lines to have my seas
 ![Snow Example](images/snow_ex.jpg)
 
 
-To solve this problem, I developed a real-time face recognition system using computer vision. The goal is to eliminate long wait times by allowing members to gain access seamlessly through facial recognition, reducing the need for manual verification. This system leverages OpenCV and Ultralytics' YOLO for object detection, along with the LBPHFaceRecognizer for real-time face recognition.
+To solve this problem, I developed a real-time face recognition system using computer vision. The goal is to eliminate long wait times by allowing members to gain access seamlessly through facial recognition, reducing the need for manual verification.
+![john Example](images/john_scan.jpg)
+
+
+This system leverages OpenCV and Ultralytics' YOLO for object detection, along with the LBPHFaceRecognizer for real-time face recognition.
 By implementing this solution, venues such as ski resorts, retail stores, and stadiums can enhance the customer experience by providing frictionless, secure, and efficient entry for their members.
