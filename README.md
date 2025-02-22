@@ -69,5 +69,5 @@ For example, the video should include their face looking directly at the camera,
 #### Extracting Frames from Video
 I wrote Python code to extract approximately 100 images from each volunteer's video. Each volunteer's images were stored in a separate folder, with each folder containing unique, randomly selected frames.
 ![ts](images/test.jpg)
-![ss](images/splitting.jpg)
+![ss](images/splitting_photos.jpg)
 
