@@ -105,3 +105,31 @@ nc: 12
 names: ['angela', 'classmate', 'giuliana', 'javier', 'john', 'maite', 'mike', 'ron', 'shanti', 'tom', 'vilma', 'will']
 ```
 ![g](images/g_doc.jpg)
+### Building the YOLO Model
+I used the Ultralytics package to build the Yolo v8 model
+!yolo task=detect mode=train model=yolov8l.pt data="/content/drive/MyDrive/capstone project/data.yaml" epochs=50 imgsz=640
+- Overall Model Performance
+* mAP@50: 74.5% → On average, the Yolo v8 model detects objects correctly 74.5% of the time at an IoU threshold of 0.50.
+* mAP@50-95: 66.7% → A more stringent metric, showing performance across multiple IoU thresholds.
+* Precision (P): 0.74 → Out of all detected objects, 74% were correctly classified.
+* Recall (R): 0.738 → The model correctly detected 73.8% of the total ground truth instances.
+## Strongly Performing Classes
+
+- **Javier, John, Ron**:  
+  They have near-perfect precision and recall, meaning they are detected correctly almost all the time.
+
+- **Angela, Giuliana, Maite, Vilma**:  
+  These classes also show strong performance with high recall and mAP scores.
+
+## Weakly Performing Classes
+
+- **Shanti (P: 0, R: 0, mAP@50: 0.0082)**:  
+  Your model is failing to detect this class altogether. You might need more data or better annotations.
+
+- **Classmate (mAP@50: 0.425, P: 0.516, R: 0.61)**:  
+  Struggles with precision and recall, meaning many false positives and false negatives.
+
+## Moderate Performance
+
+- **Mike, Tom, Will**:  
+  These classes have mid-range scores, suggesting inconsistency in detection.
