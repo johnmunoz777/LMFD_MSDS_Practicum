@@ -81,7 +81,17 @@ I created a Python function that:
 - Finaly, data.yaml file linked the path,train,validation, number_of_classes
 
 The folder structure for the output is as follows:
-main_folder/ ├── train/ │ ├── images/ │ └── labels/ ├── valid/ │ ├── images/ │ └── labels/ └── test/ ├── images/ └── labels/
+```bash
+output_base/
+    ├── train/
+    │   ├── images/
+    │   └── labels/
+    ├── valid/
+    │   ├── images/
+    │   └── labels/
+    └── test/
+        ├── images/
+        └── labels/
 
         # Dataset Paths and Configuration
 
