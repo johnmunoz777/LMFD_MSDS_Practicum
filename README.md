@@ -4,7 +4,8 @@ This project was inspired by my experience waiting in long lines to have my seas
 ![Snow Example](images/snow_ex.jpg)
 
 ## Project Proposal
-To solve this problem, I developed a real-time face recognition system using computer vision. The goal is to eliminate long wait times by allowing members to gain access seamlessly through facial recognition, reducing the need for manual verification.
+To solve this problem, I developed a real-time face recognition system using computer vision. <br>
+The goal is to eliminate long wait times by allowing members to gain access seamlessly through facial recognition, reducing the need for manual verification.
 ![john Example](images/john_scan.jpg)
 
 
