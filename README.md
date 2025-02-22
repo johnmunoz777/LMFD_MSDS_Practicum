@@ -10,7 +10,7 @@ The goal is to eliminate long wait times by allowing members to gain access seam
 ![john Example](images/john_scan.jpg)
 
 ### System Overview
-This system leverages sqlite to develop a members database, OpenCV, Ultralytics' for YOLO for object detection, and LBPHFaceRecognizer for real-time face recognition.
+This system leverages sqlite to develop a members database, OpenCV, Ultralytics' for YOLO for object detection, and LBPHFaceRecognizer for real-time face recognition.<br>
 By implementing this solution, venues such as ski resorts, retail stores, and stadiums can enhance customer experience by providing frictionless, secure, and efficient entry for their members.
 ### Table of Contents  
 - [Setting up the SQLite Database](#setting-up-the-sqlite-database)  
