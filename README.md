@@ -62,7 +62,7 @@ The Members database consisted of the following:
 ### SQlite Database Format
 ![ds](images/ds_example.jpg)
 ### Acquiring Video & Splitting Videos into Still Images 
-I had all 12 of my volunteers send me an approx 30 second video of their face.
-I suggested that in the video take a wide variety of their face so the yolo and LBPHFaceRecognizer can lern asepects of their face
-For instance the video showed their face looking at the camera 
-[![Video Thumbnail](images/john_ex.jpg)](images/john.mp4)
+I asked all 12 of my volunteers to send me an approximately 30-second video of their face. <br>
+I suggested that they capture a variety of angles to help the YOLO and LBPHFaceRecognizer models learn different aspects of their facial features.<br>
+For example, the video should include their face looking directly at the camera, as well as other angles.
+[![Video Thumbnail](images/john_ex.jpg)](images/johns.mp4)
