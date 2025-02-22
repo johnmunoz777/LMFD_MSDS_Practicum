@@ -155,3 +155,15 @@ I used the Ultralytics package to build the Yolo v8 model <br>
   ![ro](images/train_batch.jpg)
   ![ro](images/val_batch.jpg)
     ![ro](images/val_two.jpg)
+
+### YOLO v8 Model Testing Results
+
+The YOLO v8 model performed well on several test videos, accurately predicting the **volunteers** by drawing a boundary box with high confidence around their faces.
+
+However, in some test videos, the model **misclassified** certain volunteers. 
+
+
+
+![a](images/t_one.jpg)
+![b](images/t_two.jpg)
+![c](images/t_three.jpg)
