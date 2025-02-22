@@ -93,8 +93,9 @@ output_base/
         ├── images/
         └── labels/
 
-        # Dataset Paths and Configuration
+        
 ```
+# Dataset Paths and Configuration
 ```yaml
 path: /content/drive/MyDrive/capstone project/my_data_split
 train: /content/drive/MyDrive/capstone project/my_data_split/train/images
@@ -103,3 +104,4 @@ test: /content/drive/MyDrive/capstone project/my_data_split/test/images
 nc: 12
 names: ['angela', 'classmate', 'giuliana', 'javier', 'john', 'maite', 'mike', 'ron', 'shanti', 'tom', 'vilma', 'will']
 ```
+![g](images/g_doc.jpg)
