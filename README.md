@@ -37,3 +37,26 @@ After reaching out to friends and family, I enlisted 12 volunteers, each assigne
 | Tom       | 10       |
 | Vilma     | 11       |
 | Will      | 12       |
+#### Storing Data
+For each volunteer, I generated synthetic data to store 15 different demographic attributes. <br> This data was randomly created and represents the type of information that potential members might have.
+The Members database consisted of the following:
+### Members Database
+
+| Column           | Column Type         |
+|------------------|---------------------|
+| id               | INTEGER PRIMARY KEY |
+| name             | TEXT                |
+| age              | INTEGER             |
+| date_of_birth    | TEXT                |
+| address          | TEXT                |
+| loyalty          | INTEGER             |
+| member_since     | TEXT                |
+| gender           | TEXT                |
+| email            | TEXT                |
+| phone_number     | TEXT                |
+| membership_type  | TEXT                |
+| status           | TEXT                |
+| occupation       | TEXT                |
+| interest         | TEXT                |
+| marital_status   | TEXT                |
+
