@@ -18,3 +18,22 @@ By implementing this solution, venues such as ski resorts, retail stores, and st
 - [Building YOLO Model](#building-yolo-model)  
 - [Building LBPHFaceRecognizer](#building-lbphfacerecognizer)  
 - [Future Implementations](#future-implementations)  
+### Setting up the SQLite Database
+Before Creating the sqlite database I had to acquire volunteers for my LMFD project
+After asking friends and family to volunteer I endup with 12 volunteers and their following ids.
+### Member List  
+
+| Name      | ID Number |
+|-----------|----------|
+| Angela    | 1        |
+| Classmate | 2        |
+| Giuliana  | 3        |
+| Javier    | 4        |
+| John      | 5        |
+| Maite     | 6        |
+| Mike      | 7        |
+| Ron       | 8        |
+| Shanti    | 9        |
+| Tom       | 10       |
+| Vilma     | 11       |
+| Will      | 12       |
