@@ -1,7 +1,7 @@
-# Live Member Face Detection
+# Live Member Face Recognition
 ## Project Description
 This project was inspired by my experience waiting in long lines to have my season pass scanned at a ski resort. I realized there had to be a more efficient way to verify memberships and grant access to members without unnecessary delays. The same issue exists in places like Costco, sporting events, and other venues where long queues form just to validate entry credentials.
-![Snow Example](images/snow_ex.jpg)
+![Snow Example](images/snow_two.jpg)
 
 ## Project Proposal
 To solve this problem, I developed a real-time face recognition system using computer vision. <br>
