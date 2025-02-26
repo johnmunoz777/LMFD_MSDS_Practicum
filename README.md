@@ -167,7 +167,8 @@ However, in some test videos, the model **misclassified** certain volunteers.
 ![a](images/t_one.jpg)
 ![b](images/t_two.jpg)
 ![c](images/t_three.jpg)
-###building-lbphfacerecognizer
+<br>
+### building-lbphfacerecognizer
 The Second Model I used was the LBPH Face Recognizer<br>
 Again I used the haarcascade_frontalface to detect faces and once a face was detected I saved these images into a training folder
  ![za](images/face_dection_john.jpg)
