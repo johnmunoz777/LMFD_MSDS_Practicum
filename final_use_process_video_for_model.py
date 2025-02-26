@@ -158,17 +158,3 @@ def detect_still_images(user_id, images_folder, video_data_folder, display_size=
 
     cv2.destroyAllWindows()
 
-
-
-
-
-#4863
-my_f="bet.mp4"
-user_id = 5
-#num_images = 10
-video_data_folder = "video_dataset"
-images_folder = "C:/Users/johnm/capstone/volunteers/john_still_images"  # Your folder where images are located
-#preview_video_with_delay(my_f, delay=30, display_size=(1280, 1280))
-#capture_faces_from_rotated_video(my_f, user_id, num_images=20, display_size=(1280, 1280))
-detect_faces_and_save(user_id, video_data_folder, num_images=200, display_size=(1280, 1280))
-#detect_still_images(user_id, images_folder, video_data_folder, display_size=(1280, 1280))
