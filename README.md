@@ -168,12 +168,14 @@ However, in some test videos, the model **misclassified** certain volunteers.
 ![b](images/t_two.jpg)
 ![c](images/t_three.jpg)
 <br>
+<br>
 ### building-lbphfacerecognizer
 The Second Model I used was the LBPH Face Recognizer<br>
 Again I used the haarcascade_frontalface to detect faces and once a face was detected I saved these images into a training folder
  ![za](images/face_dection_john.jpg)
 Next, I used the LBPH Face Recognizer to train a Face Recognizer Model 
  ![za](images/model_learning.jpg)
+ <br>
  Once the model was trained I created a function in sql to get the profile information of each member and when the LBPH Face Recognizer  makes a prediction on a user id I displayed that image via webcam or a video to predict on
  
   ![za](images/yolo_model_results.jpg)
