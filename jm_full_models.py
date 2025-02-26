@@ -451,7 +451,7 @@ if __name__ == "__main__":
     # Create an instance of the JMModels class
     jm = JMModels()
     
-    # Uncomment the function you wish to test:
+ 
     
     # 1. Process Webcam with LBPH
     # jm.process_webcam_lbph()
