@@ -184,7 +184,9 @@ However, in some test videos, the model **misclassified** certain volunteers.
 
 
 ![a](images/t_one.jpg)
+![Project](images/g_new.gif)
 ![b](images/t_two.jpg)
+![Project](images/john_output.gif)
 ![c](images/t_three.jpg)
 <br>
 <br>
