@@ -7,7 +7,8 @@ This project was inspired by my experience waiting in long lines to have my seas
 To solve this problem, I developed a real-time face recognition system using computer vision. <br>
 The goal is to eliminate long wait times by allowing members to gain access seamlessly through facial recognition, reducing the need for manual verification. <br>
 
-![john Example](images/john_scan.jpg)
+![john Example](images/john_scan.jpg) <br>
+<br>
 ![Project](output_video.gif)
 ### System Overview
 This system leverages sqlite to develop a members database, OpenCV, Ultralytics' for YOLO for object detection, and LBPHFaceRecognizer for real-time face recognition.<br>
