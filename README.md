@@ -72,6 +72,22 @@ For example, the video should include their face looking directly at the camera,
 I wrote Python code to extract approximately 100 images from each volunteer's video. Each volunteer's images were stored in a separate folder, with each folder containing unique, randomly selected frames.
 ![ts](images/test.jpg)
 ![ss](images/splitting_photos.jpg)
+<br>
+| Feature                     | YOLO (You Only Look Once) | LBPH (Local Binary Patterns Histograms) |
+|-----------------------------|--------------------------|----------------------------------------|
+| **Model Type**              | Deep Learning (CNN-based) | Traditional Machine Learning |
+| **Detection Approach**      | Object detection (detects multiple faces at once) | Face recognition (compares features of detected faces) |
+| **Training Data Requirement** | Requires large datasets for training | Requires smaller datasets, can be trained with fewer images |
+| **Speed**                   | Faster (real-time performance) | Slower (compares each face to a database) |
+| **Accuracy**                | High accuracy for detection, but recognition depends on model training | Good for small datasets, but struggles with variations in lighting and angles |
+| **Computational Power**      | Requires GPU for optimal performance | Works well on CPU, lightweight |
+| **Works on Video Streams?** | Yes, optimized for real-time detection | Yes, but recognition is slower |
+| **Use Case**                | Detecting and identifying faces in large crowds or real-time applications | Recognizing faces from a predefined dataset in controlled environments |
+| **Scalability**             | Scales well with large datasets and real-time applications | Limited scalability, best for smaller databases |
+| **Pretrained Models**       | Pretrained models available (e.g., YOLOv5, YOLOv8) | Requires training with labeled face images |
+| **Main Weakness**           | Struggles with exact face recognition without a separate face recognition model | Struggles with large-scale recognition and varying lighting conditions |
+| **Best For**                | High-speed, large-scale face detection (e.g., surveillance, access control) | Small-scale, personal or controlled environment face recognition (e.g., employee check-ins, door access) |
+
 ### Building YOLO Model 
 To prepare the images for the YOLO v8 object detection model, I used OpenCV to detect faces within the images. Specifically, I employed the Haar Cascade classifier, an algorithm widely used for object detection, especially for faces. Once a face was detected, I generated a `.txt` file containing the volunteer's ID, the `x_center`, `y_center`, `width`, and `height` of the detected face.
 
@@ -184,17 +200,4 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
   Though this model was slower than the yolo model and also suffered from false predictions
   ![za](images/false_results.jpg)
  
-| Feature                     | YOLO (You Only Look Once) | LBPH (Local Binary Patterns Histograms) |
-|-----------------------------|--------------------------|----------------------------------------|
-| **Model Type**              | Deep Learning (CNN-based) | Traditional Machine Learning |
-| **Detection Approach**      | Object detection (detects multiple faces at once) | Face recognition (compares features of detected faces) |
-| **Training Data Requirement** | Requires large datasets for training | Requires smaller datasets, can be trained with fewer images |
-| **Speed**                   | Faster (real-time performance) | Slower (compares each face to a database) |
-| **Accuracy**                | High accuracy for detection, but recognition depends on model training | Good for small datasets, but struggles with variations in lighting and angles |
-| **Computational Power**      | Requires GPU for optimal performance | Works well on CPU, lightweight |
-| **Works on Video Streams?** | Yes, optimized for real-time detection | Yes, but recognition is slower |
-| **Use Case**                | Detecting and identifying faces in large crowds or real-time applications | Recognizing faces from a predefined dataset in controlled environments |
-| **Scalability**             | Scales well with large datasets and real-time applications | Limited scalability, best for smaller databases |
-| **Pretrained Models**       | Pretrained models available (e.g., YOLOv5, YOLOv8) | Requires training with labeled face images |
-| **Main Weakness**           | Struggles with exact face recognition without a separate face recognition model | Struggles with large-scale recognition and varying lighting conditions |
-| **Best For**                | High-speed, large-scale face detection (e.g., surveillance, access control) | Small-scale, personal or controlled environment face recognition (e.g., employee check-ins, door access) |
+
