@@ -8,7 +8,7 @@ To solve this problem, I developed a real-time face recognition system using com
 The goal is to eliminate long wait times by allowing members to gain access seamlessly through facial recognition, reducing the need for manual verification. <br>
 
 ![john Example](images/john_scan.jpg)
-
+![Project](output_video.gif)
 ### System Overview
 This system leverages sqlite to develop a members database, OpenCV, Ultralytics' for YOLO for object detection, and LBPHFaceRecognizer for real-time face recognition.<br>
 By implementing this solution, venues such as ski resorts, retail stores, and stadiums can enhance customer experience by providing frictionless, secure, and efficient entry for their members.
