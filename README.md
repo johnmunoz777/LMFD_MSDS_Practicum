@@ -194,6 +194,6 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
   Though this model was slower than the yolo model and also suffered from false predictions
   ![za](images/false_results.jpg)
   <br>
-  ![Project](images/output_video_bad.gif)
+  ![Project](images/output_video_bad_two.gif)
  
 
