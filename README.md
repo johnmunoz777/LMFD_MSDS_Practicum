@@ -73,6 +73,7 @@ I wrote Python code to extract approximately 100 images from each volunteer's vi
 ![ts](images/test.jpg)
 ![ss](images/splitting_photos.jpg)
 <br>
+### Model Comparison
 | Feature                     | YOLO (You Only Look Once) | LBPH (Local Binary Patterns Histograms) |
 |-----------------------------|--------------------------|----------------------------------------|
 | **Model Type**              | Deep Learning (CNN-based) | Traditional Machine Learning |
