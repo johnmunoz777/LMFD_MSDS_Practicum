@@ -182,9 +182,6 @@ The YOLO v8 model performed well on several test videos, accurately predicting t
 However, in some test videos, the model **misclassified** certain volunteers. 
 
 
-
-![a](images/t_one.jpg)
-<br>
 ![Project](images/g_new.gif)
 ![Project](images/john_output.gif)
 ![c](images/t_three.jpg)
