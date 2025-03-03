@@ -235,7 +235,8 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
 ### 🔄 Model Deployment  
 - **jm_full_models.py** – JMModels class for making predictions using either YOLO or LBPH, supporting webcam and video input.
 <br>
-### future-implementation
+
+### future-implementations
 
 
 #### Streamlit App  
@@ -252,8 +253,10 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
 
 ![App Idea](images/app_idea.jpg)  
 
-[Explore on Pexels](https://www.pexels.com/photo/person-using-google-maps-application-through-black-android-smartphone-35969/)  
+[Created By Ingo Joseph found on Pexels.com](https://www.pexels.com/photo/person-using-google-maps-application-through-black-android-smartphone-35969/)  
 
 ### Improve Predictions with More Sophisticated Models  
+* Improve Face Recognition model using more Sophisticated Models
+* Better Model can help with reducing false predictions
 
 
