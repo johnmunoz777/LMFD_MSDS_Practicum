@@ -198,8 +198,6 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
   ![Project](images/output_video_bad_two.gif)
   <br>
   ### File-Information
-  ### File Usage 
-File Information
 videos Folder-                              Volunteers videos|  using python code images where extracted from these videos  <br>
 images Folder-                              Used for the readme section <br>
 create_members_table.py-                    Creates the members table in SQLite <br>
