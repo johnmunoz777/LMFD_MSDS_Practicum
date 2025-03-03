@@ -236,15 +236,24 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
 - **jm_full_models.py** – JMModels class for making predictions using either YOLO or LBPH, supporting webcam and video input.
 <br>
 ### future-implementation
-#### Streamlit App
-- Build a streamlit App where A user can either user a webcam or upload a video where the models can make predictions
-- In the streamlit App  Create a sales dashboard that is tied to a user
-- Incorportate anoter model to tell the user emotions, could be useful to detect what mood the user is in when shopping
-![c](images/streams.jpg)
-### Build App 
-- Build an App using Kivy or another application
-- Connect a webcam and an App that a person can use in real time to see member status
-- Production use to see how a employee using an app can see in real time Member verification
-![c](images/app_idea.jpg)
-[Link to Pexels](https://www.pexels.com/photo/person-using-google-maps-application-through-black-android-smartphone-35969/)
-### Improve Predictions with more sophisticated
+
+
+#### Streamlit App  
+- Build a Streamlit app where a user can either use a webcam or upload a video for model predictions.  
+- In the Streamlit app, create a sales dashboard that is tied to a user.  
+- Incorporate another model to analyze user emotions—this could be useful in detecting the user’s mood while shopping.  
+
+![Streamlit App Concept](images/streams.jpg)  
+
+#### Build App  
+- Build an app using Kivy or another framework.  
+- Connect a webcam to an app that allows a person to see their member status in real-time.  
+- Develop for production use, enabling employees to verify members in real-time.  
+
+![App Idea](images/app_idea.jpg)  
+
+[Explore on Pexels](https://www.pexels.com/photo/person-using-google-maps-application-through-black-android-smartphone-35969/)  
+
+### Improve Predictions with More Sophisticated Models  
+
+
