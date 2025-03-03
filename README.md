@@ -210,7 +210,7 @@ yolo_large_model.ipynb-                     Script used to build Final Yolo Mode
 best.pt-                                    Weights extracted from Yolo Model using these weights can make predictions on Face Recognition <br>
 capston_yolo_finished_color_box.py-         Script for Webcam make prediction on Users will predict members and color via bounding box   <br>
 caspstone_yolo_finsihed_video_color_box.py- Makes prediction on video| writes out video| Rotate depending on video option to rotate video   <br>
-final_use_process_video_for_model.py-       Script used to create LBPH  Data : Note need to create a folder to store data f"video_dataset/User.{user_id}.{sampleNum}.jpg", gray[y:y+h, x:x+w]   <br>
+final_use_process_video_for_model.py-       Script used to create LBPH  Data : Note need to create a folder to store data   <br>
 used_to_build_model.py-                     Script used to Build LBPH Model  : Note need a folder to store .yaml results   <br>
 capston_lbh_model_color_box.py-             Makes predictions on webcam using LBPH Model.                                <br>
 capston_lbh_model_write_out_video.py-       Makes prediction on video using LBPH Model and writes out a video.            <br>
