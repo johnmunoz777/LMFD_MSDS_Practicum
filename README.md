@@ -18,7 +18,8 @@ By implementing this solution, venues such as ski resorts, retail stores, and st
 - [Setting up the SQLite Database](#setting-up-the-sqlite-database)  
 - [Acquiring Video & Splitting Videos into Still Images](#acquiring-video--splitting-videos-into-still-images)  
 - [Building YOLO Model](#building-yolo-model)  
-- [Building LBPHFaceRecognizer](#building-lbphfacerecognizer)  
+- [Building LBPHFaceRecognizer](#building-lbphfacerecognizer)
+- [File Information](#File-Information)
 - [Future Implementations](#future-implementations)  
 ### Setting up the SQLite Database
 Before creating the SQLite database, I needed to gather volunteers for my LMFD project.<br>
@@ -195,5 +196,25 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
   ![za](images/false_results.jpg)
   <br>
   ![Project](images/output_video_bad_two.gif)
- 
+  <br>
+  ### File-Information
+  ### File Usage 
+File Information
+videos Folder-                              Volunteers videos|  using python code images where extracted from these videos  <br>
+images Folder-                              Used for the readme section <br>
+create_members_table.py-                    Creates the members table in SQLite <br>
+abillity_to_edit_members.py-                Ability to edit members table  <br>
+create_fields.py-                           Creates member data    <br>
+extract_images_from_video.ipynb-            Function to extract images from video   <br>
+build_yolo_data.ipynb-                      Gets the data ready for Yolo v8 model    <br>
+data (1).yaml-                              yaml file needed to run yolo model  class names with location of training, valid, test data   <br>
+yolo_large_model.ipynb-                     Script used to build Final Yolo Model <br>
+best.pt-                                    Weights extracted from Yolo Model using these weights can make predictions on Face Recognition <br>
+capston_yolo_finished_color_box.py-         Script for Webcam make prediction on Users will predict members and color via bounding box   <br>
+caspstone_yolo_finsihed_video_color_box.py- Makes prediction on video| writes out video| Rotate depending on video option to rotate video   <br>
+final_use_process_video_for_model.py-       Script used to create LBPH  Data : Note need to create a folder to store data f"video_dataset/User.{user_id}.{sampleNum}.jpg", gray[y:y+h, x:x+w]   <br>
+used_to_build_model.py-                     Script used to Build LBPH Model  : Note need a folder to store .yaml results   <br>
+capston_lbh_model_color_box.py-             Makes predictions on webcam using LBPH Model.                                <br>
+capston_lbh_model_write_out_video.py-       Makes prediction on video using LBPH Model and writes out a video.            <br>
+jm_full_models.py-                          JMModels class to PREDICT Yolo or LBPH Model using webcam or video prediction  <br>
 
