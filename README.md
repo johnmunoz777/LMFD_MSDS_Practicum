@@ -253,7 +253,7 @@ Next, I used the LBPH Face Recognizer to train a Face Recognizer Model
 
 ![App Idea](images/app_idea.jpg)  
 
-[Created By Ingo Joseph found on Pexels.com](https://www.pexels.com/photo/person-using-google-maps-application-through-black-android-smartphone-35969/)  
+[Image created By Ingo Joseph found on Pexels.com](https://www.pexels.com/photo/person-using-google-maps-application-through-black-android-smartphone-35969/)  
 
 ### Improve Predictions with More Sophisticated Models  
 * Improve Face Recognition model using more Sophisticated Models
