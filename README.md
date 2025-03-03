@@ -22,7 +22,7 @@ By implementing this solution, venues such as ski resorts, retail stores, and st
 - [File Information](#File-Information)
 - [Future Implementations](#future-implementations)  
 ### Setting up the SQLite Database
-Before creating the SQLite database, I needed to gather volunteers for my LMFD project.<br>
+Before creating the SQLite database, I needed to gather volunteers for my LMFR project.<br>
 After reaching out to friends and family, I enlisted 12 volunteers, each assigned a unique ID.
 ##### Member List  
 
@@ -66,7 +66,7 @@ The Members database consisted of the following:
 ![ds](images/ds_example.jpg)
 ### Acquiring Video & Splitting Videos into Still Images 
 I asked all 12 of my volunteers to send me an approximately 30-second video of their face. <br>
-I suggested that they capture a variety of angles to help the YOLO and LBPHFaceRecognizer models learn different aspects of their facial features.<br>
+I suggested that they capture a variety of angles to help the YOLO and LBPH FaceRecognizer models to learn different aspects of their facial features.<br>
 For example, the video should include their face looking directly at the camera, as well as other angles.
 [![Video Thumbnail](images/john_ex.jpg)](images/johns.mp4)
 #### Extracting Frames from Video
@@ -140,7 +140,7 @@ I used the Ultralytics package to build the Yolo v8 model <br>
 ## Weakly Performing Classes
 
 - **Shanti (P: 0, R: 0, mAP@50: 0.0082)**:  
-  Your model is failing to detect this class altogether. You might need more data or better annotations.
+  model is failing to detect this class altogether.
 
 - **Classmate (mAP@50: 0.425, P: 0.516, R: 0.61)**:  
   Struggles with precision and recall, meaning many false positives and false negatives.
@@ -160,7 +160,7 @@ I used the Ultralytics package to build the Yolo v8 model <br>
 
 ### ROC Curve & Recall-Confidence Analysis
 ![r](images/roc_curve.jpg)
-- **Recall at 0.0 confidence**: 82%, detecting 82% of positive instances.
+- **Recall at 0.0 confidence**: Detecting 82% of positive instances.
 - **As confidence increases**, recall sharply drops around 0.8–1.0.
 - **Some classes perform better** than others:
   - **Classmate and Will** show a steep decline, indicating they are more affected by confidence filtering.
